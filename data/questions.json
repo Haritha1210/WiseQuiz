@@ -1,0 +1,2927 @@
+[
+  {
+    "id": 10000,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about HTML in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about HTML",
+      "Factually true statement regarding HTML",
+      "Completely unrelated concept to HTML",
+      "Common misconception about HTML"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10001,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about CSS in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CSS",
+      "Factually true statement regarding CSS",
+      "Completely unrelated concept to CSS",
+      "Common misconception about CSS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10002,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about JavaScript in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about JavaScript",
+      "Factually true statement regarding JavaScript",
+      "Completely unrelated concept to JavaScript",
+      "Common misconception about JavaScript"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10003,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about React in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about React",
+      "Factually true statement regarding React",
+      "Completely unrelated concept to React",
+      "Common misconception about React"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10004,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Node.js in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Node.js",
+      "Factually true statement regarding Node.js",
+      "Completely unrelated concept to Node.js",
+      "Common misconception about Node.js"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10005,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Express in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Express",
+      "Factually true statement regarding Express",
+      "Completely unrelated concept to Express",
+      "Common misconception about Express"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10006,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about MongoDB in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about MongoDB",
+      "Factually true statement regarding MongoDB",
+      "Completely unrelated concept to MongoDB",
+      "Common misconception about MongoDB"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10007,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about SQL in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about SQL",
+      "Factually true statement regarding SQL",
+      "Completely unrelated concept to SQL",
+      "Common misconception about SQL"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10008,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Git in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Git",
+      "Factually true statement regarding Git",
+      "Completely unrelated concept to Git",
+      "Common misconception about Git"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10009,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about REST APIs in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about REST APIs",
+      "Factually true statement regarding REST APIs",
+      "Completely unrelated concept to REST APIs",
+      "Common misconception about REST APIs"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10010,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Webpack in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Webpack",
+      "Factually true statement regarding Webpack",
+      "Completely unrelated concept to Webpack",
+      "Common misconception about Webpack"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10011,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about TypeScript in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about TypeScript",
+      "Factually true statement regarding TypeScript",
+      "Completely unrelated concept to TypeScript",
+      "Common misconception about TypeScript"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10012,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Docker in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Docker",
+      "Factually true statement regarding Docker",
+      "Completely unrelated concept to Docker",
+      "Common misconception about Docker"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10013,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about AWS in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about AWS",
+      "Factually true statement regarding AWS",
+      "Completely unrelated concept to AWS",
+      "Common misconception about AWS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10014,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about CI/CD in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CI/CD",
+      "Factually true statement regarding CI/CD",
+      "Completely unrelated concept to CI/CD",
+      "Common misconception about CI/CD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10015,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about HTML in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about HTML",
+      "Factually true statement regarding HTML",
+      "Completely unrelated concept to HTML",
+      "Common misconception about HTML"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10016,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about CSS in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CSS",
+      "Factually true statement regarding CSS",
+      "Completely unrelated concept to CSS",
+      "Common misconception about CSS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10017,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about JavaScript in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about JavaScript",
+      "Factually true statement regarding JavaScript",
+      "Completely unrelated concept to JavaScript",
+      "Common misconception about JavaScript"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10018,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about React in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about React",
+      "Factually true statement regarding React",
+      "Completely unrelated concept to React",
+      "Common misconception about React"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10019,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Node.js in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Node.js",
+      "Factually true statement regarding Node.js",
+      "Completely unrelated concept to Node.js",
+      "Common misconception about Node.js"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10020,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Express in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Express",
+      "Factually true statement regarding Express",
+      "Completely unrelated concept to Express",
+      "Common misconception about Express"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10021,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about MongoDB in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about MongoDB",
+      "Factually true statement regarding MongoDB",
+      "Completely unrelated concept to MongoDB",
+      "Common misconception about MongoDB"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10022,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about SQL in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about SQL",
+      "Factually true statement regarding SQL",
+      "Completely unrelated concept to SQL",
+      "Common misconception about SQL"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10023,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Git in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Git",
+      "Factually true statement regarding Git",
+      "Completely unrelated concept to Git",
+      "Common misconception about Git"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10024,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about REST APIs in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about REST APIs",
+      "Factually true statement regarding REST APIs",
+      "Completely unrelated concept to REST APIs",
+      "Common misconception about REST APIs"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10025,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Webpack in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Webpack",
+      "Factually true statement regarding Webpack",
+      "Completely unrelated concept to Webpack",
+      "Common misconception about Webpack"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10026,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about TypeScript in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about TypeScript",
+      "Factually true statement regarding TypeScript",
+      "Completely unrelated concept to TypeScript",
+      "Common misconception about TypeScript"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10027,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Docker in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Docker",
+      "Factually true statement regarding Docker",
+      "Completely unrelated concept to Docker",
+      "Common misconception about Docker"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10028,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about AWS in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about AWS",
+      "Factually true statement regarding AWS",
+      "Completely unrelated concept to AWS",
+      "Common misconception about AWS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10029,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about CI/CD in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CI/CD",
+      "Factually true statement regarding CI/CD",
+      "Completely unrelated concept to CI/CD",
+      "Common misconception about CI/CD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10030,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about HTML in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about HTML",
+      "Factually true statement regarding HTML",
+      "Completely unrelated concept to HTML",
+      "Common misconception about HTML"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10031,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about CSS in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CSS",
+      "Factually true statement regarding CSS",
+      "Completely unrelated concept to CSS",
+      "Common misconception about CSS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10032,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about JavaScript in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about JavaScript",
+      "Factually true statement regarding JavaScript",
+      "Completely unrelated concept to JavaScript",
+      "Common misconception about JavaScript"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10033,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about React in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about React",
+      "Factually true statement regarding React",
+      "Completely unrelated concept to React",
+      "Common misconception about React"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10034,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Node.js in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Node.js",
+      "Factually true statement regarding Node.js",
+      "Completely unrelated concept to Node.js",
+      "Common misconception about Node.js"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10035,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Express in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Express",
+      "Factually true statement regarding Express",
+      "Completely unrelated concept to Express",
+      "Common misconception about Express"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10036,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about MongoDB in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about MongoDB",
+      "Factually true statement regarding MongoDB",
+      "Completely unrelated concept to MongoDB",
+      "Common misconception about MongoDB"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10037,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about SQL in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about SQL",
+      "Factually true statement regarding SQL",
+      "Completely unrelated concept to SQL",
+      "Common misconception about SQL"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10038,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Git in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Git",
+      "Factually true statement regarding Git",
+      "Completely unrelated concept to Git",
+      "Common misconception about Git"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10039,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about REST APIs in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about REST APIs",
+      "Factually true statement regarding REST APIs",
+      "Completely unrelated concept to REST APIs",
+      "Common misconception about REST APIs"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10040,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Webpack in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Webpack",
+      "Factually true statement regarding Webpack",
+      "Completely unrelated concept to Webpack",
+      "Common misconception about Webpack"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10041,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about TypeScript in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about TypeScript",
+      "Factually true statement regarding TypeScript",
+      "Completely unrelated concept to TypeScript",
+      "Common misconception about TypeScript"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10042,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Docker in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Docker",
+      "Factually true statement regarding Docker",
+      "Completely unrelated concept to Docker",
+      "Common misconception about Docker"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10043,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about AWS in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about AWS",
+      "Factually true statement regarding AWS",
+      "Completely unrelated concept to AWS",
+      "Common misconception about AWS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10044,
+    "category": "fullstack",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about CI/CD in the field of fullstack. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CI/CD",
+      "Factually true statement regarding CI/CD",
+      "Completely unrelated concept to CI/CD",
+      "Common misconception about CI/CD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10045,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Neural Networks in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Neural Networks",
+      "Factually true statement regarding Neural Networks",
+      "Completely unrelated concept to Neural Networks",
+      "Common misconception about Neural Networks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10046,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Gradient Descent in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Gradient Descent",
+      "Factually true statement regarding Gradient Descent",
+      "Completely unrelated concept to Gradient Descent",
+      "Common misconception about Gradient Descent"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10047,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Overfitting in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Overfitting",
+      "Factually true statement regarding Overfitting",
+      "Completely unrelated concept to Overfitting",
+      "Common misconception about Overfitting"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10048,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Backpropagation in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Backpropagation",
+      "Factually true statement regarding Backpropagation",
+      "Completely unrelated concept to Backpropagation",
+      "Common misconception about Backpropagation"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10049,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Decision Trees in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Decision Trees",
+      "Factually true statement regarding Decision Trees",
+      "Completely unrelated concept to Decision Trees",
+      "Common misconception about Decision Trees"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10050,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about SVM in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about SVM",
+      "Factually true statement regarding SVM",
+      "Completely unrelated concept to SVM",
+      "Common misconception about SVM"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10051,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about K-Means in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about K-Means",
+      "Factually true statement regarding K-Means",
+      "Completely unrelated concept to K-Means",
+      "Common misconception about K-Means"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10052,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Random Forest in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Random Forest",
+      "Factually true statement regarding Random Forest",
+      "Completely unrelated concept to Random Forest",
+      "Common misconception about Random Forest"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10053,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about NLP in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about NLP",
+      "Factually true statement regarding NLP",
+      "Completely unrelated concept to NLP",
+      "Common misconception about NLP"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10054,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Computer Vision in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Computer Vision",
+      "Factually true statement regarding Computer Vision",
+      "Completely unrelated concept to Computer Vision",
+      "Common misconception about Computer Vision"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10055,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about TensorFlow in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about TensorFlow",
+      "Factually true statement regarding TensorFlow",
+      "Completely unrelated concept to TensorFlow",
+      "Common misconception about TensorFlow"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10056,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about PyTorch in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about PyTorch",
+      "Factually true statement regarding PyTorch",
+      "Completely unrelated concept to PyTorch",
+      "Common misconception about PyTorch"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10057,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Data Preprocessing in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Data Preprocessing",
+      "Factually true statement regarding Data Preprocessing",
+      "Completely unrelated concept to Data Preprocessing",
+      "Common misconception about Data Preprocessing"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10058,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Feature Scaling in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Feature Scaling",
+      "Factually true statement regarding Feature Scaling",
+      "Completely unrelated concept to Feature Scaling",
+      "Common misconception about Feature Scaling"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10059,
+    "category": "aiml",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Loss Functions in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Loss Functions",
+      "Factually true statement regarding Loss Functions",
+      "Completely unrelated concept to Loss Functions",
+      "Common misconception about Loss Functions"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10060,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Neural Networks in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Neural Networks",
+      "Factually true statement regarding Neural Networks",
+      "Completely unrelated concept to Neural Networks",
+      "Common misconception about Neural Networks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10061,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Gradient Descent in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Gradient Descent",
+      "Factually true statement regarding Gradient Descent",
+      "Completely unrelated concept to Gradient Descent",
+      "Common misconception about Gradient Descent"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10062,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Overfitting in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Overfitting",
+      "Factually true statement regarding Overfitting",
+      "Completely unrelated concept to Overfitting",
+      "Common misconception about Overfitting"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10063,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Backpropagation in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Backpropagation",
+      "Factually true statement regarding Backpropagation",
+      "Completely unrelated concept to Backpropagation",
+      "Common misconception about Backpropagation"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10064,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Decision Trees in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Decision Trees",
+      "Factually true statement regarding Decision Trees",
+      "Completely unrelated concept to Decision Trees",
+      "Common misconception about Decision Trees"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10065,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about SVM in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about SVM",
+      "Factually true statement regarding SVM",
+      "Completely unrelated concept to SVM",
+      "Common misconception about SVM"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10066,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about K-Means in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about K-Means",
+      "Factually true statement regarding K-Means",
+      "Completely unrelated concept to K-Means",
+      "Common misconception about K-Means"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10067,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Random Forest in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Random Forest",
+      "Factually true statement regarding Random Forest",
+      "Completely unrelated concept to Random Forest",
+      "Common misconception about Random Forest"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10068,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about NLP in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about NLP",
+      "Factually true statement regarding NLP",
+      "Completely unrelated concept to NLP",
+      "Common misconception about NLP"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10069,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Computer Vision in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Computer Vision",
+      "Factually true statement regarding Computer Vision",
+      "Completely unrelated concept to Computer Vision",
+      "Common misconception about Computer Vision"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10070,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about TensorFlow in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about TensorFlow",
+      "Factually true statement regarding TensorFlow",
+      "Completely unrelated concept to TensorFlow",
+      "Common misconception about TensorFlow"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10071,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about PyTorch in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about PyTorch",
+      "Factually true statement regarding PyTorch",
+      "Completely unrelated concept to PyTorch",
+      "Common misconception about PyTorch"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10072,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Data Preprocessing in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Data Preprocessing",
+      "Factually true statement regarding Data Preprocessing",
+      "Completely unrelated concept to Data Preprocessing",
+      "Common misconception about Data Preprocessing"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10073,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Feature Scaling in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Feature Scaling",
+      "Factually true statement regarding Feature Scaling",
+      "Completely unrelated concept to Feature Scaling",
+      "Common misconception about Feature Scaling"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10074,
+    "category": "aiml",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Loss Functions in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Loss Functions",
+      "Factually true statement regarding Loss Functions",
+      "Completely unrelated concept to Loss Functions",
+      "Common misconception about Loss Functions"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10075,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Neural Networks in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Neural Networks",
+      "Factually true statement regarding Neural Networks",
+      "Completely unrelated concept to Neural Networks",
+      "Common misconception about Neural Networks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10076,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Gradient Descent in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Gradient Descent",
+      "Factually true statement regarding Gradient Descent",
+      "Completely unrelated concept to Gradient Descent",
+      "Common misconception about Gradient Descent"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10077,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Overfitting in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Overfitting",
+      "Factually true statement regarding Overfitting",
+      "Completely unrelated concept to Overfitting",
+      "Common misconception about Overfitting"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10078,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Backpropagation in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Backpropagation",
+      "Factually true statement regarding Backpropagation",
+      "Completely unrelated concept to Backpropagation",
+      "Common misconception about Backpropagation"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10079,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Decision Trees in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Decision Trees",
+      "Factually true statement regarding Decision Trees",
+      "Completely unrelated concept to Decision Trees",
+      "Common misconception about Decision Trees"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10080,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about SVM in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about SVM",
+      "Factually true statement regarding SVM",
+      "Completely unrelated concept to SVM",
+      "Common misconception about SVM"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10081,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about K-Means in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about K-Means",
+      "Factually true statement regarding K-Means",
+      "Completely unrelated concept to K-Means",
+      "Common misconception about K-Means"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10082,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Random Forest in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Random Forest",
+      "Factually true statement regarding Random Forest",
+      "Completely unrelated concept to Random Forest",
+      "Common misconception about Random Forest"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10083,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about NLP in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about NLP",
+      "Factually true statement regarding NLP",
+      "Completely unrelated concept to NLP",
+      "Common misconception about NLP"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10084,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Computer Vision in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Computer Vision",
+      "Factually true statement regarding Computer Vision",
+      "Completely unrelated concept to Computer Vision",
+      "Common misconception about Computer Vision"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10085,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about TensorFlow in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about TensorFlow",
+      "Factually true statement regarding TensorFlow",
+      "Completely unrelated concept to TensorFlow",
+      "Common misconception about TensorFlow"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10086,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about PyTorch in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about PyTorch",
+      "Factually true statement regarding PyTorch",
+      "Completely unrelated concept to PyTorch",
+      "Common misconception about PyTorch"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10087,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Data Preprocessing in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Data Preprocessing",
+      "Factually true statement regarding Data Preprocessing",
+      "Completely unrelated concept to Data Preprocessing",
+      "Common misconception about Data Preprocessing"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10088,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Feature Scaling in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Feature Scaling",
+      "Factually true statement regarding Feature Scaling",
+      "Completely unrelated concept to Feature Scaling",
+      "Common misconception about Feature Scaling"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10089,
+    "category": "aiml",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Loss Functions in the field of aiml. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Loss Functions",
+      "Factually true statement regarding Loss Functions",
+      "Completely unrelated concept to Loss Functions",
+      "Common misconception about Loss Functions"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10090,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Thermodynamics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Thermodynamics",
+      "Factually true statement regarding Thermodynamics",
+      "Completely unrelated concept to Thermodynamics",
+      "Common misconception about Thermodynamics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10091,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Fluid Mechanics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Fluid Mechanics",
+      "Factually true statement regarding Fluid Mechanics",
+      "Completely unrelated concept to Fluid Mechanics",
+      "Common misconception about Fluid Mechanics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10092,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Statics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Statics",
+      "Factually true statement regarding Statics",
+      "Completely unrelated concept to Statics",
+      "Common misconception about Statics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10093,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Dynamics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Dynamics",
+      "Factually true statement regarding Dynamics",
+      "Completely unrelated concept to Dynamics",
+      "Common misconception about Dynamics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10094,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Heat Transfer in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Heat Transfer",
+      "Factually true statement regarding Heat Transfer",
+      "Completely unrelated concept to Heat Transfer",
+      "Common misconception about Heat Transfer"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10095,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Material Science in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Material Science",
+      "Factually true statement regarding Material Science",
+      "Completely unrelated concept to Material Science",
+      "Common misconception about Material Science"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10096,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Machine Design in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Machine Design",
+      "Factually true statement regarding Machine Design",
+      "Completely unrelated concept to Machine Design",
+      "Common misconception about Machine Design"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10097,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Kinematics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Kinematics",
+      "Factually true statement regarding Kinematics",
+      "Completely unrelated concept to Kinematics",
+      "Common misconception about Kinematics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10098,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about HVAC in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about HVAC",
+      "Factually true statement regarding HVAC",
+      "Completely unrelated concept to HVAC",
+      "Common misconception about HVAC"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10099,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Manufacturing in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Manufacturing",
+      "Factually true statement regarding Manufacturing",
+      "Completely unrelated concept to Manufacturing",
+      "Common misconception about Manufacturing"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10100,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Robotics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Robotics",
+      "Factually true statement regarding Robotics",
+      "Completely unrelated concept to Robotics",
+      "Common misconception about Robotics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10101,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about CAD in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CAD",
+      "Factually true statement regarding CAD",
+      "Completely unrelated concept to CAD",
+      "Common misconception about CAD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10102,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about FEA in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about FEA",
+      "Factually true statement regarding FEA",
+      "Completely unrelated concept to FEA",
+      "Common misconception about FEA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10103,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Mechanics of Materials in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Mechanics of Materials",
+      "Factually true statement regarding Mechanics of Materials",
+      "Completely unrelated concept to Mechanics of Materials",
+      "Common misconception about Mechanics of Materials"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10104,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Control Systems in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Control Systems",
+      "Factually true statement regarding Control Systems",
+      "Completely unrelated concept to Control Systems",
+      "Common misconception about Control Systems"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10105,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Thermodynamics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Thermodynamics",
+      "Factually true statement regarding Thermodynamics",
+      "Completely unrelated concept to Thermodynamics",
+      "Common misconception about Thermodynamics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10106,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Fluid Mechanics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Fluid Mechanics",
+      "Factually true statement regarding Fluid Mechanics",
+      "Completely unrelated concept to Fluid Mechanics",
+      "Common misconception about Fluid Mechanics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10107,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Statics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Statics",
+      "Factually true statement regarding Statics",
+      "Completely unrelated concept to Statics",
+      "Common misconception about Statics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10108,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Dynamics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Dynamics",
+      "Factually true statement regarding Dynamics",
+      "Completely unrelated concept to Dynamics",
+      "Common misconception about Dynamics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10109,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Heat Transfer in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Heat Transfer",
+      "Factually true statement regarding Heat Transfer",
+      "Completely unrelated concept to Heat Transfer",
+      "Common misconception about Heat Transfer"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10110,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Material Science in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Material Science",
+      "Factually true statement regarding Material Science",
+      "Completely unrelated concept to Material Science",
+      "Common misconception about Material Science"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10111,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Machine Design in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Machine Design",
+      "Factually true statement regarding Machine Design",
+      "Completely unrelated concept to Machine Design",
+      "Common misconception about Machine Design"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10112,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Kinematics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Kinematics",
+      "Factually true statement regarding Kinematics",
+      "Completely unrelated concept to Kinematics",
+      "Common misconception about Kinematics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10113,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about HVAC in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about HVAC",
+      "Factually true statement regarding HVAC",
+      "Completely unrelated concept to HVAC",
+      "Common misconception about HVAC"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10114,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Manufacturing in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Manufacturing",
+      "Factually true statement regarding Manufacturing",
+      "Completely unrelated concept to Manufacturing",
+      "Common misconception about Manufacturing"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10115,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Robotics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Robotics",
+      "Factually true statement regarding Robotics",
+      "Completely unrelated concept to Robotics",
+      "Common misconception about Robotics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10116,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about CAD in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CAD",
+      "Factually true statement regarding CAD",
+      "Completely unrelated concept to CAD",
+      "Common misconception about CAD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10117,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about FEA in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about FEA",
+      "Factually true statement regarding FEA",
+      "Completely unrelated concept to FEA",
+      "Common misconception about FEA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10118,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Mechanics of Materials in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Mechanics of Materials",
+      "Factually true statement regarding Mechanics of Materials",
+      "Completely unrelated concept to Mechanics of Materials",
+      "Common misconception about Mechanics of Materials"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10119,
+    "category": "mechanical",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Control Systems in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Control Systems",
+      "Factually true statement regarding Control Systems",
+      "Completely unrelated concept to Control Systems",
+      "Common misconception about Control Systems"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10120,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Thermodynamics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Thermodynamics",
+      "Factually true statement regarding Thermodynamics",
+      "Completely unrelated concept to Thermodynamics",
+      "Common misconception about Thermodynamics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10121,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Fluid Mechanics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Fluid Mechanics",
+      "Factually true statement regarding Fluid Mechanics",
+      "Completely unrelated concept to Fluid Mechanics",
+      "Common misconception about Fluid Mechanics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10122,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Statics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Statics",
+      "Factually true statement regarding Statics",
+      "Completely unrelated concept to Statics",
+      "Common misconception about Statics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10123,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Dynamics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Dynamics",
+      "Factually true statement regarding Dynamics",
+      "Completely unrelated concept to Dynamics",
+      "Common misconception about Dynamics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10124,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Heat Transfer in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Heat Transfer",
+      "Factually true statement regarding Heat Transfer",
+      "Completely unrelated concept to Heat Transfer",
+      "Common misconception about Heat Transfer"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10125,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Material Science in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Material Science",
+      "Factually true statement regarding Material Science",
+      "Completely unrelated concept to Material Science",
+      "Common misconception about Material Science"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10126,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Machine Design in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Machine Design",
+      "Factually true statement regarding Machine Design",
+      "Completely unrelated concept to Machine Design",
+      "Common misconception about Machine Design"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10127,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Kinematics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Kinematics",
+      "Factually true statement regarding Kinematics",
+      "Completely unrelated concept to Kinematics",
+      "Common misconception about Kinematics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10128,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about HVAC in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about HVAC",
+      "Factually true statement regarding HVAC",
+      "Completely unrelated concept to HVAC",
+      "Common misconception about HVAC"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10129,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Manufacturing in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Manufacturing",
+      "Factually true statement regarding Manufacturing",
+      "Completely unrelated concept to Manufacturing",
+      "Common misconception about Manufacturing"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10130,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Robotics in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Robotics",
+      "Factually true statement regarding Robotics",
+      "Completely unrelated concept to Robotics",
+      "Common misconception about Robotics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10131,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about CAD in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about CAD",
+      "Factually true statement regarding CAD",
+      "Completely unrelated concept to CAD",
+      "Common misconception about CAD"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10132,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about FEA in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about FEA",
+      "Factually true statement regarding FEA",
+      "Completely unrelated concept to FEA",
+      "Common misconception about FEA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10133,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Mechanics of Materials in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Mechanics of Materials",
+      "Factually true statement regarding Mechanics of Materials",
+      "Completely unrelated concept to Mechanics of Materials",
+      "Common misconception about Mechanics of Materials"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10134,
+    "category": "mechanical",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Control Systems in the field of mechanical. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Control Systems",
+      "Factually true statement regarding Control Systems",
+      "Completely unrelated concept to Control Systems",
+      "Common misconception about Control Systems"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10135,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Physics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Physics",
+      "Factually true statement regarding Physics",
+      "Completely unrelated concept to Physics",
+      "Common misconception about Physics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10136,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Chemistry in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Chemistry",
+      "Factually true statement regarding Chemistry",
+      "Completely unrelated concept to Chemistry",
+      "Common misconception about Chemistry"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10137,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Biology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Biology",
+      "Factually true statement regarding Biology",
+      "Completely unrelated concept to Biology",
+      "Common misconception about Biology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10138,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Astronomy in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Astronomy",
+      "Factually true statement regarding Astronomy",
+      "Completely unrelated concept to Astronomy",
+      "Common misconception about Astronomy"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10139,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Geology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Geology",
+      "Factually true statement regarding Geology",
+      "Completely unrelated concept to Geology",
+      "Common misconception about Geology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10140,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Quantum Mechanics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Quantum Mechanics",
+      "Factually true statement regarding Quantum Mechanics",
+      "Completely unrelated concept to Quantum Mechanics",
+      "Common misconception about Quantum Mechanics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10141,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Genetics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Genetics",
+      "Factually true statement regarding Genetics",
+      "Completely unrelated concept to Genetics",
+      "Common misconception about Genetics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10142,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Evolution in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Evolution",
+      "Factually true statement regarding Evolution",
+      "Completely unrelated concept to Evolution",
+      "Common misconception about Evolution"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10143,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Ecology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Ecology",
+      "Factually true statement regarding Ecology",
+      "Completely unrelated concept to Ecology",
+      "Common misconception about Ecology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10144,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Botany in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Botany",
+      "Factually true statement regarding Botany",
+      "Completely unrelated concept to Botany",
+      "Common misconception about Botany"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10145,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Zoology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Zoology",
+      "Factually true statement regarding Zoology",
+      "Completely unrelated concept to Zoology",
+      "Common misconception about Zoology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10146,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Meteorology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Meteorology",
+      "Factually true statement regarding Meteorology",
+      "Completely unrelated concept to Meteorology",
+      "Common misconception about Meteorology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10147,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Oceanography in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Oceanography",
+      "Factually true statement regarding Oceanography",
+      "Completely unrelated concept to Oceanography",
+      "Common misconception about Oceanography"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10148,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Paleontology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Paleontology",
+      "Factually true statement regarding Paleontology",
+      "Completely unrelated concept to Paleontology",
+      "Common misconception about Paleontology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10149,
+    "category": "science",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Neuroscience in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Neuroscience",
+      "Factually true statement regarding Neuroscience",
+      "Completely unrelated concept to Neuroscience",
+      "Common misconception about Neuroscience"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10150,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Physics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Physics",
+      "Factually true statement regarding Physics",
+      "Completely unrelated concept to Physics",
+      "Common misconception about Physics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10151,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Chemistry in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Chemistry",
+      "Factually true statement regarding Chemistry",
+      "Completely unrelated concept to Chemistry",
+      "Common misconception about Chemistry"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10152,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Biology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Biology",
+      "Factually true statement regarding Biology",
+      "Completely unrelated concept to Biology",
+      "Common misconception about Biology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10153,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Astronomy in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Astronomy",
+      "Factually true statement regarding Astronomy",
+      "Completely unrelated concept to Astronomy",
+      "Common misconception about Astronomy"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10154,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Geology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Geology",
+      "Factually true statement regarding Geology",
+      "Completely unrelated concept to Geology",
+      "Common misconception about Geology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10155,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Quantum Mechanics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Quantum Mechanics",
+      "Factually true statement regarding Quantum Mechanics",
+      "Completely unrelated concept to Quantum Mechanics",
+      "Common misconception about Quantum Mechanics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10156,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Genetics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Genetics",
+      "Factually true statement regarding Genetics",
+      "Completely unrelated concept to Genetics",
+      "Common misconception about Genetics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10157,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Evolution in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Evolution",
+      "Factually true statement regarding Evolution",
+      "Completely unrelated concept to Evolution",
+      "Common misconception about Evolution"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10158,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Ecology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Ecology",
+      "Factually true statement regarding Ecology",
+      "Completely unrelated concept to Ecology",
+      "Common misconception about Ecology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10159,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Botany in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Botany",
+      "Factually true statement regarding Botany",
+      "Completely unrelated concept to Botany",
+      "Common misconception about Botany"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10160,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Zoology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Zoology",
+      "Factually true statement regarding Zoology",
+      "Completely unrelated concept to Zoology",
+      "Common misconception about Zoology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10161,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Meteorology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Meteorology",
+      "Factually true statement regarding Meteorology",
+      "Completely unrelated concept to Meteorology",
+      "Common misconception about Meteorology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10162,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Oceanography in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Oceanography",
+      "Factually true statement regarding Oceanography",
+      "Completely unrelated concept to Oceanography",
+      "Common misconception about Oceanography"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10163,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Paleontology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Paleontology",
+      "Factually true statement regarding Paleontology",
+      "Completely unrelated concept to Paleontology",
+      "Common misconception about Paleontology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10164,
+    "category": "science",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Neuroscience in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Neuroscience",
+      "Factually true statement regarding Neuroscience",
+      "Completely unrelated concept to Neuroscience",
+      "Common misconception about Neuroscience"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10165,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Physics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Physics",
+      "Factually true statement regarding Physics",
+      "Completely unrelated concept to Physics",
+      "Common misconception about Physics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10166,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Chemistry in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Chemistry",
+      "Factually true statement regarding Chemistry",
+      "Completely unrelated concept to Chemistry",
+      "Common misconception about Chemistry"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10167,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Biology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Biology",
+      "Factually true statement regarding Biology",
+      "Completely unrelated concept to Biology",
+      "Common misconception about Biology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10168,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Astronomy in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Astronomy",
+      "Factually true statement regarding Astronomy",
+      "Completely unrelated concept to Astronomy",
+      "Common misconception about Astronomy"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10169,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Geology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Geology",
+      "Factually true statement regarding Geology",
+      "Completely unrelated concept to Geology",
+      "Common misconception about Geology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10170,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Quantum Mechanics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Quantum Mechanics",
+      "Factually true statement regarding Quantum Mechanics",
+      "Completely unrelated concept to Quantum Mechanics",
+      "Common misconception about Quantum Mechanics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10171,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Genetics in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Genetics",
+      "Factually true statement regarding Genetics",
+      "Completely unrelated concept to Genetics",
+      "Common misconception about Genetics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10172,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Evolution in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Evolution",
+      "Factually true statement regarding Evolution",
+      "Completely unrelated concept to Evolution",
+      "Common misconception about Evolution"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10173,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Ecology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Ecology",
+      "Factually true statement regarding Ecology",
+      "Completely unrelated concept to Ecology",
+      "Common misconception about Ecology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10174,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Botany in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Botany",
+      "Factually true statement regarding Botany",
+      "Completely unrelated concept to Botany",
+      "Common misconception about Botany"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10175,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Zoology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Zoology",
+      "Factually true statement regarding Zoology",
+      "Completely unrelated concept to Zoology",
+      "Common misconception about Zoology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10176,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Meteorology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Meteorology",
+      "Factually true statement regarding Meteorology",
+      "Completely unrelated concept to Meteorology",
+      "Common misconception about Meteorology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10177,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Oceanography in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Oceanography",
+      "Factually true statement regarding Oceanography",
+      "Completely unrelated concept to Oceanography",
+      "Common misconception about Oceanography"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10178,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Paleontology in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Paleontology",
+      "Factually true statement regarding Paleontology",
+      "Completely unrelated concept to Paleontology",
+      "Common misconception about Paleontology"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10179,
+    "category": "science",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Neuroscience in the field of science. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Neuroscience",
+      "Factually true statement regarding Neuroscience",
+      "Completely unrelated concept to Neuroscience",
+      "Common misconception about Neuroscience"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10180,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Capitals in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Capitals",
+      "Factually true statement regarding Capitals",
+      "Completely unrelated concept to Capitals",
+      "Common misconception about Capitals"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10181,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Mountains in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Mountains",
+      "Factually true statement regarding Mountains",
+      "Completely unrelated concept to Mountains",
+      "Common misconception about Mountains"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10182,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Rivers in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Rivers",
+      "Factually true statement regarding Rivers",
+      "Completely unrelated concept to Rivers",
+      "Common misconception about Rivers"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10183,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Oceans in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Oceans",
+      "Factually true statement regarding Oceans",
+      "Completely unrelated concept to Oceans",
+      "Common misconception about Oceans"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10184,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Continents in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Continents",
+      "Factually true statement regarding Continents",
+      "Completely unrelated concept to Continents",
+      "Common misconception about Continents"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10185,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Deserts in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Deserts",
+      "Factually true statement regarding Deserts",
+      "Completely unrelated concept to Deserts",
+      "Common misconception about Deserts"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10186,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Countries in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Countries",
+      "Factually true statement regarding Countries",
+      "Completely unrelated concept to Countries",
+      "Common misconception about Countries"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10187,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Population in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Population",
+      "Factually true statement regarding Population",
+      "Completely unrelated concept to Population",
+      "Common misconception about Population"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10188,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Climate in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Climate",
+      "Factually true statement regarding Climate",
+      "Completely unrelated concept to Climate",
+      "Common misconception about Climate"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10189,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Maps in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Maps",
+      "Factually true statement regarding Maps",
+      "Completely unrelated concept to Maps",
+      "Common misconception about Maps"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10190,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Cultures in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Cultures",
+      "Factually true statement regarding Cultures",
+      "Completely unrelated concept to Cultures",
+      "Common misconception about Cultures"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10191,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Borders in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Borders",
+      "Factually true statement regarding Borders",
+      "Completely unrelated concept to Borders",
+      "Common misconception about Borders"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10192,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Flags in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Flags",
+      "Factually true statement regarding Flags",
+      "Completely unrelated concept to Flags",
+      "Common misconception about Flags"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10193,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Landmarks in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Landmarks",
+      "Factually true statement regarding Landmarks",
+      "Completely unrelated concept to Landmarks",
+      "Common misconception about Landmarks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10194,
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "[EASY] This is a random quiz question about Economics in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Economics",
+      "Factually true statement regarding Economics",
+      "Completely unrelated concept to Economics",
+      "Common misconception about Economics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10195,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Capitals in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Capitals",
+      "Factually true statement regarding Capitals",
+      "Completely unrelated concept to Capitals",
+      "Common misconception about Capitals"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10196,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Mountains in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Mountains",
+      "Factually true statement regarding Mountains",
+      "Completely unrelated concept to Mountains",
+      "Common misconception about Mountains"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10197,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Rivers in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Rivers",
+      "Factually true statement regarding Rivers",
+      "Completely unrelated concept to Rivers",
+      "Common misconception about Rivers"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10198,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Oceans in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Oceans",
+      "Factually true statement regarding Oceans",
+      "Completely unrelated concept to Oceans",
+      "Common misconception about Oceans"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10199,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Continents in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Continents",
+      "Factually true statement regarding Continents",
+      "Completely unrelated concept to Continents",
+      "Common misconception about Continents"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10200,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Deserts in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Deserts",
+      "Factually true statement regarding Deserts",
+      "Completely unrelated concept to Deserts",
+      "Common misconception about Deserts"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10201,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Countries in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Countries",
+      "Factually true statement regarding Countries",
+      "Completely unrelated concept to Countries",
+      "Common misconception about Countries"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10202,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Population in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Population",
+      "Factually true statement regarding Population",
+      "Completely unrelated concept to Population",
+      "Common misconception about Population"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10203,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Climate in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Climate",
+      "Factually true statement regarding Climate",
+      "Completely unrelated concept to Climate",
+      "Common misconception about Climate"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10204,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Maps in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Maps",
+      "Factually true statement regarding Maps",
+      "Completely unrelated concept to Maps",
+      "Common misconception about Maps"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10205,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Cultures in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Cultures",
+      "Factually true statement regarding Cultures",
+      "Completely unrelated concept to Cultures",
+      "Common misconception about Cultures"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10206,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Borders in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Borders",
+      "Factually true statement regarding Borders",
+      "Completely unrelated concept to Borders",
+      "Common misconception about Borders"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10207,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Flags in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Flags",
+      "Factually true statement regarding Flags",
+      "Completely unrelated concept to Flags",
+      "Common misconception about Flags"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10208,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Landmarks in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Landmarks",
+      "Factually true statement regarding Landmarks",
+      "Completely unrelated concept to Landmarks",
+      "Common misconception about Landmarks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10209,
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "[MEDIUM] This is a random quiz question about Economics in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Economics",
+      "Factually true statement regarding Economics",
+      "Completely unrelated concept to Economics",
+      "Common misconception about Economics"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10210,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Capitals in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Capitals",
+      "Factually true statement regarding Capitals",
+      "Completely unrelated concept to Capitals",
+      "Common misconception about Capitals"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10211,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Mountains in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Mountains",
+      "Factually true statement regarding Mountains",
+      "Completely unrelated concept to Mountains",
+      "Common misconception about Mountains"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10212,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Rivers in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Rivers",
+      "Factually true statement regarding Rivers",
+      "Completely unrelated concept to Rivers",
+      "Common misconception about Rivers"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10213,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Oceans in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Oceans",
+      "Factually true statement regarding Oceans",
+      "Completely unrelated concept to Oceans",
+      "Common misconception about Oceans"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10214,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Continents in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Continents",
+      "Factually true statement regarding Continents",
+      "Completely unrelated concept to Continents",
+      "Common misconception about Continents"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10215,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Deserts in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Deserts",
+      "Factually true statement regarding Deserts",
+      "Completely unrelated concept to Deserts",
+      "Common misconception about Deserts"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10216,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Countries in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Countries",
+      "Factually true statement regarding Countries",
+      "Completely unrelated concept to Countries",
+      "Common misconception about Countries"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10217,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Population in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Population",
+      "Factually true statement regarding Population",
+      "Completely unrelated concept to Population",
+      "Common misconception about Population"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10218,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Climate in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Climate",
+      "Factually true statement regarding Climate",
+      "Completely unrelated concept to Climate",
+      "Common misconception about Climate"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10219,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Maps in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Maps",
+      "Factually true statement regarding Maps",
+      "Completely unrelated concept to Maps",
+      "Common misconception about Maps"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10220,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Cultures in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Cultures",
+      "Factually true statement regarding Cultures",
+      "Completely unrelated concept to Cultures",
+      "Common misconception about Cultures"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10221,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Borders in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Borders",
+      "Factually true statement regarding Borders",
+      "Completely unrelated concept to Borders",
+      "Common misconception about Borders"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10222,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Flags in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Flags",
+      "Factually true statement regarding Flags",
+      "Completely unrelated concept to Flags",
+      "Common misconception about Flags"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10223,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Landmarks in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Landmarks",
+      "Factually true statement regarding Landmarks",
+      "Completely unrelated concept to Landmarks",
+      "Common misconception about Landmarks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10224,
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "[HARD] This is a random quiz question about Economics in the field of geography. Which of the following is correct?",
+    "options": [
+      "Incorrect assumption about Economics",
+      "Factually true statement regarding Economics",
+      "Completely unrelated concept to Economics",
+      "Common misconception about Economics"
+    ],
+    "answer": 1
+  }
+]

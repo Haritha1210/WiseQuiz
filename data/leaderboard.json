@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Quiz Master",
+    "score": 90,
+    "category": "technology",
+    "difficulty": "hard",
+    "date": "2026-05-18T10:30:00Z"
+  },
+  {
+    "name": "Curious Cat",
+    "score": 85,
+    "category": "science",
+    "difficulty": "medium",
+    "date": "2026-05-19T14:15:00Z"
+  },
+  {
+    "name": "Explorer",
+    "score": 80,
+    "category": "geography",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:00:00Z"
+  },
+  {
+    "name": "Ada Lovelace",
+    "score": 75,
+    "category": "technology",
+    "difficulty": "medium",
+    "date": "2026-05-17T09:00:00Z"
+  },
+  {
+    "name": "Albert E.",
+    "score": 70,
+    "category": "science",
+    "difficulty": "hard",
+    "date": "2026-05-16T16:45:00Z"
+  },
+  {
+    "name": "Haritha",
+    "score": 50,
+    "category": "technology",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:26:16.507Z"
+  },
+  {
+    "name": "Haritha",
+    "score": 50,
+    "category": "technology",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:27:07.319Z"
+  },
+  {
+    "name": "Hari",
+    "score": 40,
+    "category": "technology",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:37:43.279Z"
+  },
+  {
+    "name": "Hari",
+    "score": 20,
+    "category": "technology",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:38:34.576Z"
+  },
+  {
+    "name": "Hari",
+    "score": 60,
+    "category": "technology",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:39:48.829Z"
+  },
+  {
+    "name": "Hari",
+    "score": 100,
+    "category": "aiml",
+    "difficulty": "easy",
+    "date": "2026-05-20T08:49:53.746Z"
+  },
+  {
+    "name": "Hari",
+    "email": "abc@gmail.com",
+    "score": 40,
+    "category": "aiml",
+    "difficulty": "easy",
+    "streak": 2,
+    "date": "2026-05-20T10:52:30.236Z"
+  },
+  {
+    "name": "Hari",
+    "email": "abc@gmail.com",
+    "score": 40,
+    "category": "aiml",
+    "difficulty": "easy",
+    "streak": 3,
+    "date": "2026-05-20T11:06:31.914Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 50,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-20T11:23:44.508Z"
+  },
+  {
+    "name": "Hari",
+    "email": "abc@gmail.com",
+    "score": 50,
+    "category": "aiml",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-20T11:31:56.445Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 0,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-20T11:36:37.058Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 20,
+    "category": "aiml",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-20T11:40:08.899Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 40,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-20T11:46:10.599Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 53,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-20T13:21:56.708Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 60,
+    "category": "aiml",
+    "difficulty": "easy",
+    "streak": 1,
+    "date": "2026-05-20T13:24:19.067Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 73,
+    "category": "mechanical",
+    "difficulty": "easy",
+    "streak": 1,
+    "date": "2026-05-20T13:28:17.689Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 93,
+    "category": "aiml",
+    "difficulty": "medium",
+    "streak": 2,
+    "date": "2026-05-21T05:35:31.726Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 27,
+    "category": "fullstack",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-21T05:58:02.716Z"
+  },
+  {
+    "name": "hari",
+    "email": "abc@gmail.com",
+    "score": 20,
+    "category": "aiml",
+    "difficulty": "medium",
+    "streak": 1,
+    "date": "2026-05-21T06:18:22.755Z"
+  },
+  {
+    "name": "rose",
+    "email": "rose@gmail.com",
+    "score": 53,
+    "category": "aiml",
+    "difficulty": "easy",
+    "streak": 1,
+    "date": "2026-05-21T06:36:12.960Z"
+  },
+  {
+    "name": "rose",
+    "email": "rose@gmail.com",
+    "score": 60,
+    "category": "fullstack",
+    "difficulty": "easy",
+    "streak": 1,
+    "date": "2026-05-21T06:39:33.845Z"
+  }
+]

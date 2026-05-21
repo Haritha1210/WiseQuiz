@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WiseQuiz | Premium Dynamic Trivia</title>
+  <meta name="description" content="Experience a highly interactive, beautifully crafted trivia game with dynamic categories, active timers, and live leaderboards.">
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- jsPDF Library for Question Bank -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="url(#logoGrad)" />
+          <path d="M2 17L12 22L22 17" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M2 12L12 17L22 12" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <defs>
+            <linearGradient id="logoGrad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#a855f7" />
+              <stop offset="1" stop-color="#6366f1" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-text">Wise<span class="gradient-text">Quiz</span></span>
+      </div>
+
+      <nav class="top-nav hide" id="app-top-nav">
+        <button id="nav-dashboard" class="nav-btn">Dashboard</button>
+        <button id="nav-home" class="nav-btn active">Play Quiz</button>
+        <button id="nav-profile" class="nav-btn">My Profile</button>
+        <button id="nav-qbank" class="nav-btn">Question Bank</button>
+      </nav>
+
+      <div id="header-user-info" class="header-user-info hide">
+        <div class="header-avatar" id="header-avatar-display">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:100%;height:100%;">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <span id="header-user-name" class="header-user-name">Guest</span>
+      </div>
+
+      <div class="header-actions">
+        <div class="audio-panel-wrapper">
+          <button id="audio-settings-toggle" class="icon-btn" aria-label="Audio Settings" title="Audio Settings">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5v14M22 9v6M7 8v8M2 10v4" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <div id="audio-dropdown" class="audio-dropdown hide">
+            <div class="audio-dropdown-item">
+              <label for="toggle-audio-checkbox">Sound FX</label>
+              <div class="checkbox-wrapper">
+                <input type="checkbox" id="toggle-audio-checkbox" checked>
+              </div>
+            </div>
+            <div class="audio-dropdown-item">
+              <label for="toggle-music-checkbox">Ambient BGM</label>
+              <div class="checkbox-wrapper">
+                <input type="checkbox" id="toggle-music-checkbox">
+              </div>
+            </div>
+            <div class="audio-dropdown-item">
+              <label for="volume-slider">Volume</label>
+              <input type="range" id="volume-slider" min="0" max="100" value="50">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+
+      <!-- SCREEN: DASHBOARD -->
+      <section id="screen-dashboard" class="hide fade-in">
+        <!-- Welcome Banner -->
+        <div class="dash-banner">
+          <div class="dash-banner-content">
+            <p class="dash-banner-tag">Welcome back</p>
+            <h1 id="dash-welcome-name" class="dash-banner-title">Hello, Player!</h1>
+            <p id="dash-banner-subtitle" class="dash-banner-sub">You have a 0-day streak. Ready for your next challenge?</p>
+            <button id="dash-start-quiz-btn" class="dash-start-btn">
+              Start Next Quiz
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:16px;height:16px;display:inline;margin-left:6px;">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </button>
+          </div>
+          <div class="dash-banner-art">
+            <img src="img/banner_bg.png" alt="Quiz Art" onerror="this.style.display='none'">
+          </div>
+        </div>
+
+        <!-- Stats Row -->
+        <div class="dash-stats-grid">
+          <div class="dash-stat-card">
+            <div class="dash-stat-icon" style="color:#2563eb;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;">
+                <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+              </svg>
+            </div>
+            <div class="dash-stat-num" id="dash-quizzes-completed">0</div>
+            <div class="dash-stat-label">Quizzes Completed</div>
+          </div>
+          <div class="dash-stat-card">
+            <div class="dash-stat-icon" style="color:#059669;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="dash-stat-num" id="dash-accuracy">0%</div>
+            <div class="dash-stat-label">Average Accuracy</div>
+          </div>
+          <div class="dash-stat-card">
+            <div class="dash-stat-icon" style="color:#ef4444;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;">
+                <path d="M17 9.511c-.049 0-.097.006-.145.018a5.503 5.503 0 0 0-4.341-4.341 5.5 5.5 0 0 0-5.003 9.09C7.14 14.12 7 13.91 7 13.5c0-1.57 1.25-2.83 2.76-2.98A4.004 4.004 0 0 1 15 13.5c0 1.2-.56 2.27-1.42 2.95A4.499 4.499 0 0 0 17 9.511z"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+              </svg>
+            </div>
+            <div class="dash-stat-num" id="dash-top-streak">0 🔥</div>
+            <div class="dash-stat-label">Daily Streak</div>
+          </div>
+          <div class="dash-stat-card">
+            <div class="dash-stat-icon" style="color:#d97706;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <div class="dash-stat-num" id="dash-points">0</div>
+            <div class="dash-stat-label">Points Earned</div>
+          </div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="dash-main-grid">
+          <!-- Left Column -->
+          <div class="dash-left-col">
+            <!-- Progress Card -->
+            <div class="dash-card">
+              <div class="dash-card-header">
+                <div>
+                  <h3 class="dash-card-title">Quiz Progress</h3>
+                  <p id="dash-progress-label" class="dash-card-sub">Keep playing to level up!</p>
+                </div>
+                <span id="dash-progress-pct" class="dash-progress-pct">0%</span>
+              </div>
+              <div class="dash-progress-bar-bg">
+                <div id="dash-progress-fill" class="dash-progress-bar-fill" style="width:0%"></div>
+              </div>
+              <div class="dash-progress-details">
+                <div><div class="dash-detail-val" id="dash-streak-count">0</div><div class="dash-detail-lbl">Daily Streak</div></div>
+                <div><div class="dash-detail-val" id="dash-avg-score">0%</div><div class="dash-detail-lbl">Avg Score</div></div>
+                <div><div class="dash-detail-val" id="dash-active-days">0/7</div><div class="dash-detail-lbl">Active Days</div></div>
+              </div>
+            </div>
+
+            <!-- Recommended Quizzes -->
+            <div class="dash-card">
+              <div class="dash-card-header">
+                <h3 class="dash-card-title">Recommended for You</h3>
+                <button class="dash-see-all-btn" id="dash-see-all-btn">See All</button>
+              </div>
+              <div class="dash-recommended-grid">
+                <div class="dash-rec-card">
+                  <div class="dash-rec-img" style="background: linear-gradient(135deg, #1e3a5f, #2563eb); display:flex; align-items:center; justify-content:center;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" style="width:48px;height:48px;"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                  </div>
+                  <div class="dash-rec-tags">
+                    <span class="dash-tag dash-tag-hard">HARD</span>
+                    <span class="dash-tag dash-tag-time">15 QUES</span>
+                  </div>
+                  <h4 class="dash-rec-title">Full Stack Dev</h4>
+                  <p class="dash-rec-desc">Deep dive into front-end, back-end and deployment pipelines.</p>
+                  <button class="dash-rec-btn" data-rec-category="fullstack" data-rec-difficulty="hard">Take Quiz &rarr;</button>
+                </div>
+                <div class="dash-rec-card">
+                  <div class="dash-rec-img" style="background: linear-gradient(135deg, #064e3b, #059669); display:flex; align-items:center; justify-content:center;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" style="width:48px;height:48px;"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  </div>
+                  <div class="dash-rec-tags">
+                    <span class="dash-tag dash-tag-medium">MEDIUM</span>
+                    <span class="dash-tag dash-tag-time">15 QUES</span>
+                  </div>
+                  <h4 class="dash-rec-title">AI / ML Concepts</h4>
+                  <p class="dash-rec-desc">Understand neural networks, gradient descent and overfitting.</p>
+                  <button class="dash-rec-btn" data-rec-category="aiml" data-rec-difficulty="medium">Take Quiz &rarr;</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="dash-right-col">
+            <!-- Recent Activity -->
+            <div class="dash-card">
+              <h3 class="dash-card-title" style="margin-bottom:16px;">Recent Activity</h3>
+              <div id="dash-activity-list" class="dash-activity-list">
+                <p style="color:var(--text-muted);font-size:14px;">No recent activity yet. Play your first quiz!</p>
+              </div>
+              <button id="dash-view-all-activity" class="dash-view-all-btn">View All Activity</button>
+            </div>
+
+            <!-- Badge -->
+            <div class="dash-badge-card">
+              <div class="dash-badge-icon">&#9733;</div>
+              <div>
+                <h4 class="dash-badge-title">Keep Going!</h4>
+                <p id="dash-badge-msg" class="dash-badge-msg">Complete your first quiz to unlock your first badge.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 1: SETUP SCREEN -->
+      <section id="screen-setup" class="card fade-in">
+         <form id="setup-form" class="setup-form" onsubmit="return false;">
+          <!-- Step 1: User Info -->
+          <div id="setup-step-1" class="setup-step">
+            <div class="about-section" style="text-align: center; margin-bottom: 25px; padding: 15px; background: var(--bg-card-border); border-radius: 12px;">
+              <h2 style="font-size: 1.2rem; color: var(--color-primary); margin-bottom: 8px;">About This Website</h2>
+              <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.4;">
+                WiseQuiz is a premium dynamic trivia platform designed to test your knowledge across multiple categories. 
+                Challenge yourself, track your daily streaks, and compete on the live leaderboard!
+              </p>
+            </div>
+            
+            <div class="form-group">
+              <label for="player-name">Your Name</label>
+              <div class="input-wrapper">
+                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+                <input type="text" id="player-name" placeholder="Enter username..." required minlength="2" maxlength="15" autocomplete="off">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="player-email">Email ID</label>
+              <div class="input-wrapper">
+                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <input type="email" id="player-email" placeholder="Enter email address..." required autocomplete="off">
+              </div>
+            </div>
+
+
+            <button type="button" id="continue-step-1" class="btn btn-primary btn-glow-hover">
+              <span>Continue</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Step 2: Config/Blue Menus -->
+          <div id="setup-step-2" class="setup-step hide">
+
+            <!-- MAIN CATEGORY CARDS -->
+            <div class="form-group">
+              <label class="setup-label">Choose Category</label>
+              <div class="category-cards-grid" id="main-category-menu">
+                <button type="button" class="cat-card active" data-category="technology">
+                  <div class="cat-card-icon" style="background:linear-gradient(135deg,#1d4ed8,#2563eb);">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                  </div>
+                  <div class="cat-card-name">Technology</div>
+                  <div class="cat-card-desc">Full Stack · AI/ML · Mechanical</div>
+                </button>
+                <button type="button" class="cat-card" data-category="science">
+                  <div class="cat-card-icon" style="background:linear-gradient(135deg,#065f46,#059669);">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31M14 2v7.31M8.5 9.5l-5.62 9.75A2.01 2.01 0 0 0 4.62 22h14.76a2 2 0 0 0 1.74-3.01l-5.62-9.75M9 2h6"></path><path d="M10.9 9.5l-4 7"></path></svg>
+                  </div>
+                  <div class="cat-card-name">Science</div>
+                  <div class="cat-card-desc">Physics · Chemistry · Biology</div>
+                </button>
+                <button type="button" class="cat-card" data-category="geography">
+                  <div class="cat-card-icon" style="background:linear-gradient(135deg,#92400e,#d97706);">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                  </div>
+                  <div class="cat-card-name">Geography</div>
+                  <div class="cat-card-desc">Countries · Capitals · Oceans</div>
+                </button>
+              </div>
+            </div>
+
+            <!-- TECHNOLOGY SUBCATEGORY CARDS (shown only when Technology selected) -->
+            <div class="form-group" id="subcategory-group">
+              <label class="setup-label">Choose Specialisation</label>
+              <div class="category-cards-grid" id="subcategory-menu">
+                <button type="button" class="cat-card active" data-subcategory="fullstack">
+                  <div class="cat-card-icon" style="background:linear-gradient(135deg,#1e40af,#3b82f6);">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 12 12 17 22 12"></polyline><polyline points="2 17 12 22 22 17"></polyline></svg>
+                  </div>
+                  <div class="cat-card-name">Full Stack</div>
+                  <div class="cat-card-desc">HTML · JS · React · Node</div>
+                </button>
+                <button type="button" class="cat-card" data-subcategory="aiml">
+                  <div class="cat-card-icon" style="background:linear-gradient(135deg,#312e81,#7c3aed);">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                  </div>
+                  <div class="cat-card-name">AI / ML</div>
+                  <div class="cat-card-desc">Neural Nets · NLP · Models</div>
+                </button>
+                <button type="button" class="cat-card" data-subcategory="mechanical">
+                  <div class="cat-card-icon" style="background:linear-gradient(135deg,#7f1d1d,#dc2626);">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  </div>
+                  <div class="cat-card-name">Mechanical</div>
+                  <div class="cat-card-desc">Thermo · Fluids · Dynamics</div>
+                </button>
+              </div>
+            </div>
+
+            <!-- DIFFICULTY SELECTION -->
+            <div class="form-group">
+              <label class="setup-label">Select Difficulty</label>
+              <div class="diff-row" id="difficulty-menu">
+                <button type="button" class="diff-btn" data-difficulty="easy">
+                  <span class="diff-dot" style="background:#059669;"></span>Easy
+                </button>
+                <button type="button" class="diff-btn active" data-difficulty="medium">
+                  <span class="diff-dot" style="background:#d97706;"></span>Medium
+                </button>
+                <button type="button" class="diff-btn" data-difficulty="hard">
+                  <span class="diff-dot" style="background:#dc2626;"></span>Hard
+                </button>
+              </div>
+            </div>
+
+            <!-- QUIZ INFO PILL -->
+            <div class="quiz-info-pill">
+              <span>15 Random Questions</span>
+              <span class="pill-dot">•</span>
+              <span>30s Timer Each</span>
+              <span class="pill-dot">•</span>
+              <span>Sound Effects On</span>
+            </div>
+
+            <div class="flex-actions" style="display: flex; gap: 15px; margin-top: 10px;">
+              <button type="button" id="back-step-2" class="btn btn-secondary" style="flex: 1;">
+                <span>Dashboard</span>
+              </button>
+              
+              <button type="submit" id="start-btn" class="btn btn-primary btn-glow-hover" style="flex: 2;">
+                <span>Launch Quiz</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- SCREEN PROFILE -->
+      <section id="screen-profile" class="card hide fade-in">
+        <div class="card-hero">
+          <h1>My <span class="gradient-text font-extrabold">Profile</span></h1>
+          <p class="subtitle">Track your progress and customize your trivia identity</p>
+        </div>
+        
+        <div class="profile-container" style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 20px;">
+          <!-- Left Col: Avatar -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 15px; min-width: 250px;">
+            <div class="profile-photo-wrapper" style="width: 150px; height: 150px; border-radius: 50%; border: 4px solid var(--color-primary); overflow: hidden; background: var(--bg-darker); display: flex; align-items: center; justify-content: center;">
+              <img id="profile-img-preview" src="" alt="Profile Photo" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+              <svg id="profile-img-placeholder" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="1.5" style="width: 60px; height: 60px;">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <label class="btn btn-secondary" style="padding: 10px 20px; font-size: 14px;">
+              <span>Upload Photo</span>
+              <input type="file" id="profile-photo-input" accept="image/*" style="display: none;">
+            </label>
+          </div>
+
+          <!-- Right Col: Metrics -->
+          <div style="flex: 2; min-width: 300px; display: flex; flex-direction: column; gap: 20px;">
+            <div class="grid-2">
+              <div class="metric-card">
+                <div class="metric-value" id="profile-daily-score">0</div>
+                <div class="metric-label">Overall Score Today</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-value" id="profile-active-days">0/7</div>
+                <div class="metric-label">Active Days (This Week)</div>
+              </div>
+              <div class="metric-card" style="grid-column: span 2;">
+                <div class="metric-value" id="profile-daily-streak">0 🔥</div>
+                <div class="metric-label">Current Daily Streak</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN QUESTION BANK -->
+      <section id="screen-qbank" class="card hide fade-in">
+        <div class="card-hero">
+          <h1>Question <span class="gradient-text font-extrabold">Bank</span></h1>
+          <p class="subtitle">Generate and download custom PDF quiz sheets</p>
+        </div>
+
+        <form id="qbank-form" onsubmit="return false;" style="display: flex; flex-direction: column; gap: 25px; margin-top: 20px;">
+          <!-- Category Menu -->
+          <div class="form-group">
+            <label>Select Subject Category</label>
+            <div class="blue-menu-grid" id="qbank-category-menu">
+              <button type="button" class="menu-choice-btn active" data-qcategory="technology">
+                <div class="choice-icon">💻</div>
+                <div class="choice-label">Technology</div>
+              </button>
+              <button type="button" class="menu-choice-btn" data-qcategory="science">
+                <div class="choice-icon">🔬</div>
+                <div class="choice-label">Science</div>
+              </button>
+              <button type="button" class="menu-choice-btn" data-qcategory="geography">
+                <div class="choice-icon">🌍</div>
+                <div class="choice-label">Geography</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Technology Subcategories (only visible if Technology is active) -->
+          <div class="form-group" id="qbank-subcategory-group">
+            <label>Select Technology Subcategory</label>
+            <div class="blue-menu-grid sub-menu" id="qbank-subcategory-menu">
+              <button type="button" class="menu-choice-btn active" data-qsubcategory="fullstack">
+                <div class="choice-label">Full Stack</div>
+              </button>
+              <button type="button" class="menu-choice-btn" data-qsubcategory="aiml">
+                <div class="choice-label">AI / ML</div>
+              </button>
+              <button type="button" class="menu-choice-btn" data-qsubcategory="mechanical">
+                <div class="choice-label">Mechanical</div>
+              </button>
+            </div>
+          </div>
+
+
+          <button type="submit" id="qbank-download-btn" class="btn btn-primary btn-glow-hover">
+            <span>Download PDF</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </button>
+        </form>
+      </section>
+
+      <!-- SCREEN 2: QUIZ SCREEN -->
+      <section id="screen-quiz" class="card hide">
+        <div class="quiz-header">
+          <div class="badge-row">
+            <span id="badge-category" class="badge">Technology</span>
+            <span id="badge-difficulty" class="badge">Medium</span>
+          </div>
+          <div class="live-score">
+            <span>Score: </span>
+            <span id="live-score-val" class="gradient-text font-bold">0</span>
+          </div>
+        </div>
+
+        <div class="progress-section">
+          <div class="progress-info">
+            <span id="progress-text">Question 1 of 10</span>
+            <span id="progress-percentage">10% Complete</span>
+          </div>
+          <div class="progress-bar-container">
+            <div id="progress-bar-fill" class="progress-bar-fill" style="width: 10%"></div>
+          </div>
+        </div>
+
+        <!-- Lifelines Panel -->
+        <div class="lifelines-container">
+          <span class="lifelines-title">Lifelines:</span>
+          <button id="lifeline-fifty-fifty" class="btn btn-secondary lifeline-btn" title="Remove two incorrect answers">
+            <span>⚡ 50:50</span>
+          </button>
+          <button id="lifeline-time-freeze" class="btn btn-secondary lifeline-btn" title="Freeze timer for this question">
+            <span>❄️ Time Freeze</span>
+          </button>
+        </div>
+
+        <div class="question-timer-row">
+          <!-- Circular Timer -->
+          <div class="timer-container" aria-label="Time Remaining">
+            <svg class="timer-ring" width="70" height="70">
+              <circle class="timer-ring-bg" stroke="rgba(255,255,255,0.05)" stroke-width="6" fill="transparent" r="28" cx="35" cy="35" />
+              <circle id="timer-ring-indicator" class="timer-ring-indicator" stroke="url(#timerGrad)" stroke-width="6" fill="transparent" r="28" cx="35" cy="35" stroke-dasharray="175.93" stroke-dashoffset="0" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="timerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop stop-color="#10b981" />
+                  <stop offset="50%" stop-color="#f59e0b" />
+                  <stop offset="100%" stop-color="#ef4444" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <span id="timer-text" class="timer-text">15</span>
+          </div>
+
+          <!-- Question Prompt -->
+          <div class="question-container">
+            <h2 id="question-text" class="question-text">What is the output of typeof null in JavaScript?</h2>
+          </div>
+        </div>
+
+        <!-- Options Container -->
+        <div id="options-container" class="options-grid">
+          <!-- Dynamically generated buttons go here -->
+        </div>
+
+        <!-- Quiz Navigation -->
+        <div class="quiz-footer">
+          <button id="next-btn" class="btn btn-secondary btn-icon-right hide">
+            <span>Next Question</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- SCREEN 3: RESULTS SCREEN -->
+      <!-- Chocolate splash canvas (full-screen, hidden by default) -->
+      <canvas id="splash-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:none;"></canvas>
+
+      <section id="screen-results" class="card hide">
+        <div class="results-hero">
+          <h1 id="result-title">Excellent Job!</h1>
+          <p class="subtitle" id="result-subtitle">You have conquered the trivia arena.</p>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-value" id="stat-score">80%</div>
+            <div class="stat-label">Final Score</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-correct">8/10</div>
+            <div class="stat-label">Correct Answers</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-time">1:42</div>
+            <div class="stat-label">Time Spent</div>
+          </div>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="tab-container">
+          <div class="tab-headers">
+            <button id="tab-leaderboard-btn" class="tab-header active">Leaderboard</button>
+            <button id="tab-analytics-btn" class="tab-header">Analytics</button>
+            <button id="tab-review-btn" class="tab-header">Review Answers</button>
+          </div>
+          
+          <!-- Tab Contents -->
+          <div class="tab-contents">
+            <!-- Leaderboard Tab -->
+            <div id="tab-leaderboard-content" class="tab-panel active">
+              <div class="leaderboard-filters">
+                <div class="search-input-wrapper">
+                  <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <input type="text" id="leaderboard-search" placeholder="Search players..." autocomplete="off">
+                </div>
+                <div class="select-wrapper filter-select">
+                  <select id="leaderboard-filter-category">
+                    <option value="all">All Categories</option>
+                    <option value="fullstack">Full Stack Development</option>
+                    <option value="aiml">AI / ML</option>
+                    <option value="mechanical">Mechanical</option>
+                    <option value="science">Science</option>
+                    <option value="geography">Geography</option>
+                  </select>
+                </div>
+              </div>
+              <div class="table-container">
+                <table class="leaderboard-table">
+                  <thead>
+                    <tr>
+                      <th>Rank</th>
+                      <th>Player</th>
+                      <th>Category</th>
+                      <th>Difficulty</th>
+                      <th>Streak</th>
+                      <th>Score</th>
+
+                    </tr>
+                  </thead>
+                  <tbody id="leaderboard-body">
+                    <!-- Dynamic leaderboard rows go here -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Analytics Tab -->
+            <div id="tab-analytics-content" class="tab-panel">
+              <div class="analytics-container">
+                <div class="analytics-metrics">
+                  <div class="metric-card">
+                    <div class="metric-value" id="val-streak">0</div>
+                    <div class="metric-label">Max Streak</div>
+                  </div>
+                  <div class="metric-card">
+                    <div class="metric-value" id="val-speed">0s</div>
+                    <div class="metric-label">Avg Speed</div>
+                  </div>
+                  <div class="metric-card">
+                    <div class="metric-value" id="val-efficiency">0%</div>
+                    <div class="metric-label">Time Efficiency</div>
+                  </div>
+                </div>
+                <div class="chart-card">
+                  <h3 class="chart-title">Category Accuracy</h3>
+                  <div class="svg-chart-wrapper" id="svg-chart-wrapper">
+                    <!-- SVG Chart will be injected dynamically -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review Tab -->
+            <div id="tab-review-content" class="tab-panel">
+              <div id="review-list" class="review-list">
+                <!-- Dynamic question breakdown reviews go here -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Row -->
+        <div class="action-row">
+          <button id="restart-btn" class="btn btn-primary btn-glow-hover">
+            <span>Play Again</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2026 WiseQuiz. Powered by Google DeepMind Antigravity.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
